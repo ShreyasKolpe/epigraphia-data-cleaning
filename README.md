@@ -54,8 +54,6 @@ The table below lists the common substitutions from EC and observations
 
 ![](/images/text_sample.png)  
 
-<img src="/images/text_sample.png" height="100">
-
 is copied as  
 
 **Malliséna-bhatarara guddain Charengayyam tirtthamain bandisidam**  
