@@ -46,8 +46,8 @@ The table below lists the common substitutions from EC and observations
 | ಱ                  | ![](/images/r_with_two_dots.png)| ṟ | Old Kannada character|
 | ಳ                  | ḷ             | ḷ                   |          |
 | ೞ                  | ![](/images/l_with_two_dots.png)| ḻ  | Old Kannada character|
-| ಶ/श                  | ![](/images/s_with_left_acute.png)| ś | Character has fallen into disuse|
-| ಷ/ष                  | ś             | ṣ                   |          |
+| ಶ/श                  | ![](/images/s_with_left_acute.png)| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś|
+| ಷ/ष                  | ś             | ṣ                   | Used in EC Vol 2. EC Vol 3 uses compound character of sh |
 | ಜ್ಞ (ಜ್ + ಞ)/ज्ञ (ज् + ञ)| jñ            |jñ                   | Same characters|
 
 
@@ -68,4 +68,9 @@ and after correction becomes
 
 Only character level substitutions and corrections are made to render text human-readable and partially standards-compliant. No attempt has been made to make entire translation/transliteration text fully in line with the standard. This might need to be done in the future.  
 
-For example, ಋ/ऋ is written in EC as ṛi, such as in kṛiśṇa. This is retained, instead of changing the original text to kṛśṇa.
+For example, 
+1. ಋ/ऋ is written in EC as ṛi, such as in kṛiśṇa. This is retained, instead of changing the original text to kṛśṇa.
+
+2. ಶ/श is written in EC Vol 3 as ś, while ಷ/ष is written as sh. During data cleaning, ś is corrected but sh is retained.
+
+3. The anusvāra poses problems. In Sanskrit, this character changes depending on the following consonant. The usage of the ಂ/ं is also common. Correctness would require consulting the inscription in Indic characters to make sure that the anusvāra carries over accurately. This is done in a few cases, but ignored in the vast majority.
