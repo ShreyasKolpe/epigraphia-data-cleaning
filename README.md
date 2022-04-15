@@ -2,6 +2,7 @@
 
 This repo will contain code and documentation for data cleaning that will be done for **Epigraphia Carnatica** PDFs sourced from [archive.org](https://archive.org/search.php?query=epigraphia%20carnatica)  
 
+The database of 'cleaned' information and APIs to access them is being developed at [REST APIs for Epigraphia Carnatica database](https://github.com/ShreyasKolpe/epigraphia-rest-apis)
 
 ## Why does data need to be cleaned?
   
