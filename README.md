@@ -43,17 +43,17 @@ The table below lists the common substitutions from EC and observations
 | ಟ/ट                | ṭ             | ṭ                   |          |
 | ಡ/ड                | ḍ             | ḍ                   |          |
 | ಣ/ण                | ṇ             | ṇ                   |          |
-| ಱ                  | ![](/images/r_with_two_dots.png)| ṟ | Old Kannada character|
+| ಱ                  | <img width="11" alt="r_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586068-5ae9a75f-cac6-4011-a085-bfc3a284d005.png">| ṟ | Old Kannada character|
 | ಳ                  | ḷ             | ḷ                   |          |
-| ೞ                  | ![](/images/l_with_two_dots.png)| ḻ  | Old Kannada character|
-| ಶ/श                  | ![](/images/s_with_left_acute.png)| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś|
+| ೞ                  | <img width="9" alt="l_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586110-fa6cebaa-6a75-4905-8d31-b9c61c772116.png">| ḻ  | Old Kannada character|
+| ಶ/श                  | <img width="13" alt="s_with_left_acute" src="https://user-images.githubusercontent.com/13967444/163586201-4632fac8-8c1d-452a-8105-75b96a14554d.png">| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś|
 | ಷ/ष                  | ś             | ṣ                   | Used in EC Vol 2. EC Vol 3 uses compound character of sh |
 | ಜ್ಞ (ಜ್ + ಞ)/ज्ञ (ज् + ञ)| jñ            |jñ                   | Same characters|
 
 
 ### Example
 
-![](/images/text_sample.png)  
+<img width="650" alt="text_sample" src="https://user-images.githubusercontent.com/13967444/163585979-8b65ab14-748d-4dc0-93f6-df5a25f2c284.png">
 
 is copied as  
 
