@@ -37,13 +37,13 @@ The table below lists the common substitutions from EC and observations
 | ಋ/ऋ               | ṛ             | ṛ                   | Same character|
 | ಏ                  | é             | ē                   | Long vowel in Dravidian languages|
 | ಓ                  | ô             | ō                   | Long vowel in Dravidian languages|
-|  ಂ/ं                | ṃ             | ṁ                   | Final anusvara|
-|  ಃ/ः                | ḥ             | ḥ                   | Same character|
+|  ಂ/ं              | ṃ             | ṁ                   | Final anusvara|
+|  ಃ/ः              | ḥ             | ḥ                   | Same character|
 | ಙ/ङ                | ṅ             | ṅ                   | Same character|
-| ಞ/ञ               | ñ             | ñ                   | Same character |
-| ಟ/ट                | ṭ             | ṭ                   |          |
-| ಡ/ड                | ḍ             | ḍ                   |          |
-| ಣ/ण                | ṇ             | ṇ                   |          |
+| ಞ/ञ               | ñ             | ñ                   | Same character|
+| ಟ/ट                | ṭ             | ṭ                   | Same character|
+| ಡ/ड                | ḍ             | ḍ                   | Same character|
+| ಣ/ण                | ṇ             | ṇ                   | Same character|
 | ಱ                  | <img width="11" alt="r_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586068-5ae9a75f-cac6-4011-a085-bfc3a284d005.png">| ṟ | Old Kannada character|
 | ಳ                  | ḷ             | ḷ                   |          |
 | ೞ                  | <img width="9" alt="l_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586110-fa6cebaa-6a75-4905-8d31-b9c61c772116.png">| ḻ  | Old Kannada character|
