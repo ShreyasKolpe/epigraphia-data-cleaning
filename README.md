@@ -40,6 +40,7 @@ The table below lists the common substitutions from EC and observations
 |  ಂ/ं                | ṃ             | ṁ                   | Final anusvara|
 |  ಃ/ः                | ḥ             | ḥ                   | Same character|
 | ಙ/ङ                | ṅ             | ṅ                   | Same character|
+| ಞ/ञ               | ñ             | ñ                   | Same character |
 | ಟ/ट                | ṭ             | ṭ                   |          |
 | ಡ/ड                | ḍ             | ḍ                   |          |
 | ಣ/ण                | ṇ             | ṇ                   |          |
@@ -74,3 +75,14 @@ For example,
 2. ಶ/श is written in EC Vol 3 as ś, while ಷ/ष is written as sh. During data cleaning, ś is corrected but sh is retained.
 
 3. The anusvāra poses problems. In Sanskrit, this character changes depending on the following consonant. The usage of the ಂ/ं is also common. Correctness would require consulting the inscription in Indic characters to make sure that the anusvāra carries over accurately. This is done in a few cases, but ignored in the vast majority.
+
+## Thoughts on automation
+
+1. Some observations from repeatedly cleaning up texts manually could help in automation. 
+
+    For Kannada inscriptions, the following are made:
+    * The OCR text consistently copies ē as é. Thus, this could be automated.
+    * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
+    * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
+
+2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
