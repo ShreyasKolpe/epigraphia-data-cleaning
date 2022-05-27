@@ -1,15 +1,17 @@
 import re
 
-
-def processor(input, lang, e, s, n):
+# This file contains the actual functionality of the processor
+def processor(input, lang, e, o, s, n):
     if lang == 'kn':
-        output = None
+        output = input
         if e:
-            output = re.sub('é', 'ē', input)
+            output = re.sub('é', 'ē', output)
+        if o:
+            output = re.sub('ô', 'ō', output)
         if s:
-            output = re.sub('[sS$gé]ri', 'śrī', input)
+            output = re.sub('[sS$gé]ri', 'śrī', output)
         if n:
-            output = re.sub('nk', 'ṅk', input)
+            output = re.sub('nk', 'ṅk', output)
             output = re.sub('ng', 'ṅg', output)
 
             output = re.sub('nc', 'ñc', output)
@@ -17,7 +19,6 @@ def processor(input, lang, e, s, n):
 
             output = re.sub('nṭ', 'ṇṭ', output)
             output = re.sub('nḍ', 'ṇḍ', output)
-            # print(output)
         return output
     else:
         return None
