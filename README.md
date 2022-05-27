@@ -86,3 +86,25 @@ For example,
     * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
 
 2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
+
+## Using the software (in-development)
+
+As and when the automation code goes through milestones, it will be released so that it can be used as a UI tool, part 
+of [REST APIs for Epigraphia Carnatica database](https://github.com/ShreyasKolpe/epigraphia-rest-apis).
+
+The current version is epiclean==0.0.1 and can be found [here](https://pypi.org/project/epiclean/0.0.1/)
+
+To install, run
+```
+pip install epiclean
+```
+
+Optionally, create a `requirements.txt` with the content
+```
+epiclean==<version>
+```
+
+and install with 
+```bash
+pip install -r requirements.txt
+```
