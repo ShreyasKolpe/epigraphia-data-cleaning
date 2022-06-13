@@ -84,8 +84,12 @@ For example,
     * The OCR text consistently copies ē as é. Thus, this could be automated. Similarly, it sometimes copies ô instead of ō.
     * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
     * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
+    * OCR copies ti for ū quite often. A possible rule would be to search for ti between two consonants. (to implement)
+    * Similarly, fi for ñ. A rule might be to look for fi between a preceding vowel and a few consonants (k, j). (to implement)
 
 2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
+
+3. A UI should provide a diff between the original and the automatically corrected and provide an approve/reject mechanism. (to implement)
 
 ## Using the software (in-development)
 
