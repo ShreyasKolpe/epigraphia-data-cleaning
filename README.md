@@ -30,26 +30,26 @@ The table below lists the common substitutions from EC and observations
   
 
 | Indic Character(s) | EC character  | ISO 15919 character | Comments |
-|--------------------|---------------|---------------------|----------|
-| ಆ/आ               | â             | ā                   |          |
-| ಈ/ई               | î             | ī                   |          |
-| 󠁲ಊ/ऊ              | û             | ū                   |          |
-| ಋ/ऋ               | ṛ             | ṛ                   | Same character|
-| ಏ                  | é             | ē                   | Long vowel in Dravidian languages|
-| ಓ                  | ô             | ō                   | Long vowel in Dravidian languages|
-|  ಂ/ं              | ṃ             | ṁ                   | Final anusvara|
-|  ಃ/ः              | ḥ             | ḥ                   | Same character|
-| ಙ/ङ                | ṅ             | ṅ                   | Same character|
-| ಞ/ञ               | ñ             | ñ                   | Same character|
-| ಟ/ट                | ṭ             | ṭ                   | Same character|
-| ಡ/ड                | ḍ             | ḍ                   | Same character|
-| ಣ/ण                | ṇ             | ṇ                   | Same character|
+|--------------------|---------------|--------------------|----------|
+| ಆ/आ               | â             | ā                  |          |
+| ಈ/ई               | î             | ī                  |          |
+| 󠁲ಊ/ऊ              | û             | ū                  |          |
+| ಋ/ऋ               | ṛ             | r̥                   | |
+| ಏ                  | é             | ē                  | Long vowel in Dravidian languages|
+| ಓ                  | ô             | ō                  | Long vowel in Dravidian languages|
+|  ಂ/ं              | ṃ             | ṁ                  | Final anusvara|
+|  ಃ/ः              | ḥ             | ḥ                  | Same character|
+| ಙ/ङ                | ṅ             | ṅ                  | Same character|
+| ಞ/ञ               | ñ             | ñ                  | Same character|
+| ಟ/ट                | ṭ             | ṭ                  | Same character|
+| ಡ/ड                | ḍ             | ḍ                  | Same character|
+| ಣ/ण                | ṇ             | ṇ                  | Same character|
 | ಱ                  | <img width="11" alt="r_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586068-5ae9a75f-cac6-4011-a085-bfc3a284d005.png">| ṟ | Old Kannada character|
-| ಳ                  | ḷ             | ḷ                   |          |
+| ಳ                  | ḷ             | ḷ                  |          |
 | ೞ                  | <img width="9" alt="l_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586110-fa6cebaa-6a75-4905-8d31-b9c61c772116.png">| ḻ  | Old Kannada character|
 | ಶ/श                  | <img width="13" alt="s_with_left_acute" src="https://user-images.githubusercontent.com/13967444/163586201-4632fac8-8c1d-452a-8105-75b96a14554d.png">| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś|
-| ಷ/ष                  | ś             | ṣ                   | Used in EC Vol 2. EC Vol 3 uses compound character of sh |
-| ಜ್ಞ (ಜ್ + ಞ)/ज्ञ (ज् + ञ)| jñ            |jñ                   | Same characters|
+| ಷ/ष                  | ś             | ṣ                  | Used in EC Vol 2. EC Vol 3 uses compound character of sh |
+| ಜ್ಞ (ಜ್ + ಞ)/ज्ञ (ज् + ञ)| jñ            |jñ                  | Same characters|
 
 
 ### Example
@@ -85,7 +85,8 @@ For example,
     * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
     * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
     * OCR copies ti for ū quite often. A possible rule would be to search for ti between two consonants. (to implement)
-    * Similarly, fi for ñ. A rule might be to look for fi between a preceding vowel and a few consonants (k, j). (to implement)
+    * Similarly, fi for ñ. A rule might be to look for fi between a preceding vowel and a few consonants (c, j).
+    * An m at the end of a word or compound-word-sequence, is possibly an ṁ. (to implement)
 
 2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
 
@@ -96,7 +97,7 @@ For example,
 As and when the automation code goes through milestones, it will be released so that it can be used as a UI tool, part 
 of [REST APIs for Epigraphia Carnatica database](https://github.com/ShreyasKolpe/epigraphia-rest-apis).
 
-The current version is epiclean==0.0.1 and can be found [here](https://pypi.org/project/epiclean/0.0.1/)
+The current version is epiclean==0.0.2 and can be found [here](https://pypi.org/project/epiclean/)
 
 To install, run
 ```
