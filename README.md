@@ -37,7 +37,7 @@ The table below lists the common substitutions from EC and observations
 | ಋ/ऋ               | ṛ             | r̥                   | |
 | ಏ                  | é             | ē                  | Long vowel in Dravidian languages|
 | ಓ                  | ô             | ō                  | Long vowel in Dravidian languages|
-|  ಂ/ं              | ṃ             | ṁ                  | Final anusvara|
+|  ಂ/ं              | ṃ/ṁ             | ṁ                  | Final anusvara|
 |  ಃ/ः              | ḥ             | ḥ                  | Same character|
 | ಙ/ङ                | ṅ             | ṅ                  | Same character|
 | ಞ/ञ               | ñ             | ñ                  | Same character|
@@ -47,8 +47,8 @@ The table below lists the common substitutions from EC and observations
 | ಱ                  | <img width="11" alt="r_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586068-5ae9a75f-cac6-4011-a085-bfc3a284d005.png">| ṟ | Old Kannada character|
 | ಳ                  | ḷ             | ḷ                  |          |
 | ೞ                  | <img width="9" alt="l_with_two_dots" src="https://user-images.githubusercontent.com/13967444/163586110-fa6cebaa-6a75-4905-8d31-b9c61c772116.png">| ḻ  | Old Kannada character|
-| ಶ/श                  | <img width="13" alt="s_with_left_acute" src="https://user-images.githubusercontent.com/13967444/163586201-4632fac8-8c1d-452a-8105-75b96a14554d.png">| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś|
-| ಷ/ष                  | ś             | ṣ                  | Used in EC Vol 2. EC Vol 3 uses compound character of sh |
+| ಶ/श                  | <img width="13" alt="s_with_left_acute" src="https://user-images.githubusercontent.com/13967444/163586201-4632fac8-8c1d-452a-8105-75b96a14554d.png">/ś/š| ś | Used in EC Vol 2, character has fallen into disuse. EC Vol 3 uses ś. EC Vol 5 uses š|
+| ಷ/ष                  | ś             | ṣ                  | Used in EC Vol 2. EC Vol 3 and later uses compound character of sh |
 | ಜ್ಞ (ಜ್ + ಞ)/ज्ञ (ज् + ञ)| jñ            |jñ                  | Same characters|
 
 
@@ -74,7 +74,9 @@ For example,
 
 2. ಶ/श is written in EC Vol 3 as ś, while ಷ/ष is written as sh. During data cleaning, ś is corrected but sh is retained.
 
-3. The anusvāra poses problems. In Sanskrit, this character changes depending on the following consonant. The usage of the ಂ/ं is also common. Correctness would require consulting the inscription in Indic characters to make sure that the anusvāra carries over accurately. This is done in a few cases, but ignored in the vast majority.
+3. ಚ/च is represented in EC as ch. This is retained instead of correcting to the standards compliant c. Similarly ಛ/छ is retained as chh and not corrected to ch.
+
+3. The anusvāra/anunāsikā poses problems. In Sanskrit, this character changes depending on the succeeding consonant. The usage of the ಂ/ं is also common. Correctness would require consulting the inscription in Indic characters to make sure that the anusvāra carries over accurately. This is done in a few cases, but ignored in the vast majority.
 
 ## Thoughts on automation
 
