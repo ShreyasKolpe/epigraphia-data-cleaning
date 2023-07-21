@@ -70,7 +70,7 @@ and after correction becomes
 Only character level substitutions and corrections are made to render text human-readable and partially standards-compliant. No attempt has been made to make entire translation/transliteration text fully in line with the standard. This might need to be done in the future.  
 
 For example, 
-1. ಋ/ऋ is written in EC as ṛi, such as in kṛiśṇa. This is retained, instead of changing the original text to kṛśṇa.
+1. ಋ/ऋ is written in EC as ṛi, such as in kṛiṣṇa. This is retained, instead of changing the original text to kṛṣṇa.
 
 2. ಶ/श is written in EC Vol 3 as ś, while ಷ/ष is written as sh. During data cleaning, ś is corrected but sh is retained.
 
@@ -83,12 +83,15 @@ For example,
 1. Some observations from repeatedly cleaning up texts manually could help in automation. 
 
     For Kannada inscriptions, the following are made:
-    * The OCR text consistently copies ē as é. Thus, this could be automated. Similarly, it sometimes copies ô instead of ō.
+    * The OCR text consistently copies ē as é. Thus, this could be automated. 
+    * Similarly, it sometimes copies ô/ó instead of ō. (to implement)
+    * In some texts, â is copied as à or á. This could also be automated to replace these two characters with ā. (to implement)
+    * The $ character is inserted by the OCR in place of ś. This can be easily identified and corrected. (to implement)
     * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
     * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
     * OCR copies ti for ū quite often. A possible rule would be to search for ti between two consonants. (to implement)
     * Similarly, fi for ñ. A rule might be to look for fi between a preceding vowel and a few consonants (c, j).
-    * An m at the end of a word or compound-word-sequence, is possibly an ṁ. (to implement)
+    * An m at the end of a word or compound-word-sequence, is possibly an ṁ if it is followed by a consonant. (to implement)
 
 2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
 
