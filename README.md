@@ -86,12 +86,13 @@ For example,
     * The OCR text consistently copies ē as é. Thus, this could be automated. 
     * Similarly, it sometimes copies ô/ó instead of ō.
     * In some texts, â is copied as à or á. This could also be automated to replace these two characters with ā.
-    * The $ character is inserted by the OCR in place of ś. This can be easily identified and corrected. Similarly, S' might actually represent Ś.
+    * The $ and & characters are inserted by the OCR in place of ś. This can be easily identified and corrected. Similarly, S' might actually represent Ś.
     * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
-    * Largely, the anusvāra is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
-    * OCR copies ti for ū quite often. A possible rule would be to search for ti between two consonants. (to implement)
+    * Largely, the anunāsikas is used properly by the ancient and medieval scribes. So when n is followed by a consonant, the appropriate cluster can be inserted properly.
+    * OCR copies ti and ü for ū quite often. A possible rule would be to search for ti between two consonants. (to implement)
     * Similarly, fi for ñ. A rule might be to look for fi between a preceding vowel and a few consonants (c, j).
-    * An m at the end of a word or word in a compound-word-sequence, is possibly an ṁ if it is followed by a consonant.
+    * The character sequence śrī is very common and can be inserted into a few variants that happen during OCR copying.
+    * An m at the end of a word or word in a compound-word-sequence, is possibly an ṁ if it is followed by a consonant (inscluding the extension characters, eg. ś).
 
 2. A large enough corpus of uncorrected and corrected texts could allow ML/DL to take a go at it.
 

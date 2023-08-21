@@ -1,5 +1,5 @@
 import argparse
-from clean_epigraphia import processor
+from automation.src.epiclean.clean_epigraphia import processor
 
 # This file is the command line tool to make use of processor
 if __name__ == "__main__":
@@ -8,6 +8,7 @@ if __name__ == "__main__":
     parser.add_argument("-a", help="whether to find and replace ā. Boolean", action='store_true', default=False)
     parser.add_argument("-e", help="whether to find and replace ē. Boolean", action='store_true', default=False)
     parser.add_argument("-o", help="whether to find and replace ō. Boolean", action='store_true', default=False)
+    parser.add_argument("-u", help="whether to find and replace ū. Boolean", action='store_true', default=False)
     parser.add_argument("-s", help="whether to find and replace ś and Ś. Boolean", action='store_true', default=False)    
     parser.add_argument("-sri", help="whether to find and replace the sequence śrī. Boolean", action='store_true', default=False)
     parser.add_argument("-n", help="whether to find and replace consonant clusters involving anunasika", action='store_true', default=False)
@@ -30,7 +31,7 @@ if __name__ == "__main__":
         print("input is null")
         exit(1)
 
-    output = processor(input, args.lang, args.a, args.e, args.o, args.s, args.sri, args.n, args.jn, args.m)
+    output = processor(input, args.lang, args.a, args.e, args.o, args.u, args.s, args.sri, args.n, args.jn, args.m)
     if not output:
         print("An error occurred. Aborting")
         exit(1)
